@@ -1,17 +1,13 @@
-.client-title {
-   margin-bottom: 50px;
-}
-
-.client-list {
+.client__list {
    display: flex;
    justify-content: center;
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
    margin-right: 30px;
 }
 
-.client-link {
+.client__link {
    display: block;
    width: 170px;
    height: 92px;
@@ -22,18 +18,18 @@
    transition: var(--transition-fill), var(--transition-border-color);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
    fill: var(--accent-color);
    border-color: var(--accent-color);
 }
 
-.client-link .button-client {
+.client__link .client__img {
    fill: var(--icon-color);
    transition: var(--transition-fill);
 }
 
-.client-link:hover .button-client,
-.client-link:focus .button-client {
+.client__link:hover .client__img,
+.client__link:focus .client__img {
    fill: var(--accent-color);
 }

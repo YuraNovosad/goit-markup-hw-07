@@ -408,7 +408,7 @@ textarea {
   background-color: var(--background-color-second);
 }
 
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -417,22 +417,18 @@ textarea {
           justify-content: center;
 }
 
-.card-team:not(:last-child) {
+.team__card:not(:last-child) {
   margin-right: 30px;
 }
 
-.card-team img {
-  display: block;
-}
-
-.card-team {
+.team__card {
   background-color: var(--background-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.tean-name {
+.team__name {
   margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
@@ -442,7 +438,7 @@ textarea {
   color: var(--title-text-color);
 }
 
-.team-job {
+.team__job {
   margin-top: 10px;
   margin-bottom: 16px;
   font-weight: 400;
@@ -529,11 +525,7 @@ textarea {
   fill: var(--accent-color-text);
 }
 
-.client-title {
-  margin-bottom: 50px;
-}
-
-.client-list {
+.client__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,11 +534,11 @@ textarea {
           justify-content: center;
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-link {
+.client__link {
   display: block;
   width: 170px;
   height: 92px;
@@ -558,20 +550,20 @@ textarea {
   transition: var(--transition-fill), var(--transition-border-color);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.client-link .button-client {
+.client__link .client__img {
   fill: var(--icon-color);
   -webkit-transition: var(--transition-fill);
   transition: var(--transition-fill);
 }
 
-.client-link:hover .button-client,
-.client-link:focus .button-client {
+.client__link:hover .client__img,
+.client__link:focus .client__img {
   fill: var(--accent-color);
 }
 
