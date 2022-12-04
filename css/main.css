@@ -850,7 +850,7 @@ textarea {
   padding: 40px;
 }
 
-.form-title {
+.form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -860,7 +860,7 @@ textarea {
   margin-bottom: 12px;
 }
 
-.form-field {
+.form__field {
   position: relative;
   /* outline: 1px solid tomato; */
   display: -webkit-box;
@@ -873,7 +873,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-.form-field label {
+.form__field .form__label {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.1666666667;
@@ -881,7 +881,7 @@ textarea {
   color: var(--primery-text-color);
 }
 
-.form-field input {
+.form__field .form__input {
   width: 100%;
   height: 40px;
   margin: 0;
@@ -892,13 +892,13 @@ textarea {
   transition: border var(--transition-time);
 }
 
-.form-field input:hover,
-.form-field input:focus {
+.form__field .form__input:hover,
+.form__field .form__input:focus {
   outline: 0;
   border: 1px solid var(--accent-color);
 }
 
-.input-icon {
+.form__input-icon {
   position: absolute;
   bottom: 11px;
   left: 12px;
@@ -906,16 +906,16 @@ textarea {
   transition: fill var(--transition-time);
 }
 
-.form-input:hover + .input-icon,
-.form-input:focus + .input-icon {
+.form__input:hover + .form__input-icon,
+.form__input:focus + .form__input-icon {
   fill: var(--accent-color);
 }
 
-.form-comment {
+.form__field—comment {
   margin-bottom: 18px;
 }
 
-.form-field textarea {
+.form__field .comment-area {
   width: 100%;
   height: 120px;
   padding: 12px 12px 12px 16px;
@@ -925,41 +925,41 @@ textarea {
   transition: border var(--transition-time);
 }
 
-.form-field textarea:hover,
-.form-field textarea:focus {
+.form__field .comment-area:hover,
+.form__field .comment-area:focus {
   outline: 0;
   border: 1px solid var(--accent-color);
 }
 
-.form-field textarea::-webkit-input-placeholder {
+.form__field .comment-area::-webkit-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea::-moz-placeholder {
+.form__field .comment-area::-moz-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea:-ms-input-placeholder {
+.form__field .comment-area:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea::-ms-input-placeholder {
+.form__field .comment-area::-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea::placeholder {
+.form__field .comment-area::placeholder {
   font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
@@ -986,7 +986,7 @@ textarea {
   position: absolute;
 }
 
-.label-check {
+.form-policy__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1000,7 +1000,7 @@ textarea {
   color: #757575;
 }
 
-.wrapper-check {
+.checkbox__wrapper {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1009,7 +1009,7 @@ textarea {
   margin-right: 7px;
 }
 
-.checkbox:checked + .wrapper-check {
+.checkbox:checked + .checkbox__wrapper {
   border-color: transparent;
   background-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
@@ -1027,14 +1027,14 @@ textarea {
   color: var(--primery-text-color);
 }
 
-.form-policy .policy-link {
+.form-policy .form-policy__link {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: var(--accent-color);
   margin-left: 2px;
 }
 
-.button-submit {
+.button—submit {
   padding-right: 52px;
   padding-left: 52px;
 }/*# sourceMappingURL=main.css.map */
