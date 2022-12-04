@@ -1,19 +1,19 @@
 
-.benefits-list {
+.benefits__list {
    display: flex;
    margin-left: -30px;
    justify-content: center;
 }
 
-.benefits-list .item {
+.benefits__list .item {
    flex-basis: calc(100% / 4 - 30px);
 }
 
-.benefits-list .item:not(:first-child) {
+.benefits__list .item:not(:first-child) {
    margin-left: 30px;
 }
 
-.benefit-thumb {
+.benefit__thumb {
    background-color: var(--background-color-second);
    padding: 25px 100px;
    border-radius: 4px;
