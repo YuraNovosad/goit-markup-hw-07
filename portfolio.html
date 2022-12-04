@@ -240,110 +240,77 @@
         </ul>
       </div>
     </section>
-    
-    <footer class="footer">
+   <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-box">
-          <a href="/" class="logo link"
-            ><span class="logo-first">Web</span><span class="logo-footer">Studio</span></a
-          >
-          <address class="address-footer">
-            <ul class="address-footer-list list">
-              <li class="item">
-                <a
-                  href="https://goo.gl/maps/XgjmKiaME6EHn6Jn9"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="address-footer-lokation link"
-                  >м. Київ, бульвар Лесі Українки, 26</a
-                >
-              </li>
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="address-footer-link link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="address-footer-link link">+38 096 111 11 11</a>
-              </li>
+         <div class="footer-box">
+            <a href="/" class="logo link">Web<span class="logo--footer">Studio</span></a>
+            <address class="address-footer">
+               <ul class="address-footer__list list">
+                  <li class="item">
+                     <a href="https://goo.gl/maps/XgjmKiaME6EHn6Jn9" target="_blank" rel="noopener noreferrer nofollow"
+                        class="address-footer__link address-footer__link—white link">м. Київ, пр-т Лесі Українки, 26</a>
+                  </li>
+                  <li class="item">
+                     <a href="mailto:info@devstudio.com" class="address-footer__link link">info@devstudio.com</a>
+                  </li>
+                  <li class="item">
+                     <a href="tel:+380961111111" class="address-footer__link link">+38 096 111 11 11</a>
+                  </li>
+               </ul>
+            </address>
+         </div>
+         <div class="footer__social-box">
+            <h3 class="footer__social-title">приєднуйтесь</h3>
+            <ul class="social list">
+               <li class="social__item">
+                  <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                     class="social__link social__link--footer link">
+                     <svg class="social__icon--footer" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item">
+                  <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                     class="social__link social__link--footer link">
+                     <svg class="social__icon--footer" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item">
+                  <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                     class="social__link social__link--footer link">
+                     <svg class="social__icon--footer" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item">
+                  <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+                     class="social__link social__link--footer link">
+                     <svg class="social__icon--footer" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                     </svg>
+                  </a>
+               </li>
             </ul>
-          </address>
-        </div>
-        <div class="footer-social-box">
-          <h3 class="social-title-footer">приєднуйтесь</h3>
-          <div class="social-container-footer">
-            <ul class="social-list list">
-              <li class="social-item">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="social-link social-link-footer link"
-                >
-                  <svg class="social-icon-footer" width="20" height="20">
-                    <use href="./images/icons.svg#instagram"></use>
+         </div>
+         <div class="subscription">
+            <h3 class="subscription__title">Підпишіться на розсилку</h3>
+            <form class="subscription__wraper">
+               <label for="email-subscription"></label>
+               <input class="subscription__input" type="email" name="email-subscription" id="email-subscription"
+                  placeholder="E-mail" />
+               <button type="submit" class="button button--signup" data-modal-open>
+                  Підписатися
+                  <svg class="icon-send" width="24" height="24">
+                     <use href="./images/icons.svg#icon-send"></use>
                   </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="social-link social-link-footer link"
-                >
-                  <svg class="social-icon-footer" width="20" height="20">
-                    <use href="./images/icons.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="social-link social-link-footer link"
-                >
-                  <svg class="social-icon-footer" width="20" height="20">
-                    <use href="./images/icons.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="social-link social-link-footer link"
-                >
-                  <svg class="social-icon-footer" width="20" height="20">
-                    <use href="./images/icons.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="subscription">
-          <h3 class="subscription-title">Підпишіться на розсилку</h3>
-          <form class="subscription-wraper">
-            <label for="email-subscription"></label>
-            <input
-              class="input-subscription"
-              type="email"
-              name="email-subscription"
-              id="email-subscription"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="button button-signup" data-modal-open>
-              Підписатися
-              <svg class="icon-send" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+               </button>
+            </form>
+         </div>
       </div>
-    </footer>
+   </footer>
   </body>
 </html>
