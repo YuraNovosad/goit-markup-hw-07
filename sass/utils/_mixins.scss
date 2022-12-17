@@ -1,0 +1,14 @@
+
+@mixin flex_jus-c_cen() {
+   display: flex;
+   justify-content: center;
+}
+
+@mixin flex_al-i_cen() {
+   display: flex;
+   align-items: center;
+}
+
+
+
+symbol-defs      icons
